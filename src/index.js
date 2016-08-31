@@ -25,6 +25,7 @@ require('present'); // Polyfill `performance.now()`.
 // CSS.
 require('./style/aframe.css');
 require('./style/rStats.css');
+require('./style/screenshot.css');
 
 // Required before `AEntity` so that all components are registered.
 var AScene = require('./core/scene/a-scene');

@@ -292,10 +292,15 @@ module.exports = registerElement('a-scene', {
         // Set at startup. To enable/disable antialias
         // at runttime we would have to recreate the whole context
         var antialias = this.getAttribute('antialias') === 'true';
+
         var renderer = this.renderer = new THREE.WebGLRenderer({
           canvas: canvas,
           antialias: antialias || window.hasNativeWebVRImplementation,
-          alpha: true
+          alpha: true,
+          // TODO:  How best to add this?
+          // Required at startup for screenshot
+          // http://stackoverflow.com/questions/15558418/how-do-you-save-an-image-from-a-three-js-canvas
+          preserveDrawingBuffer: true
         });
         renderer.setPixelRatio(window.devicePixelRatio);
         renderer.sortObjects = false;

@@ -1,0 +1,29 @@
+/*
+  TODO
+    -  Replace with icon and elegant styles
+    -  Hide at "mobile" size since it probably isn't useful there
+*/
+button.screenshot {
+  display: block;
+  background: yellow;
+  position: absolute;
+  right: 120px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+div.screenshot-container {
+  width: 200px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  z-index: 2;
+}
+
+div.screenshot-container img {
+  max-width: 200px;
+  display: block;
+}
