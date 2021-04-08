@@ -55,7 +55,7 @@
     "codecov": "^1.0.1",
     "cross-env": "^5.0.1",
     "exorcist": "^0.4.0",
-    "ghpages": "0.0.8",
+    "ghpages": "0.0.10",
     "git-rev": "^0.2.1",
     "glob": "^7.1.1",
     "husky": "^0.11.7",
