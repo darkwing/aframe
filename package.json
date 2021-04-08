@@ -29,7 +29,7 @@
   "repository": "aframevr/aframe",
   "license": "MIT",
   "dependencies": {
-    "@tweenjs/tween.js": "^16.8.0",
+    "@tweenjs/tween.js": "^18.0.0",
     "browserify-css": "^0.8.2",
     "debug": "ngokevin/debug#noTimestamp",
     "deep-assign": "^2.0.0",
